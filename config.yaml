@@ -1,0 +1,18 @@
+task: deeploc2
+gpu: 1
+lr: 0.0000025
+train_batch_size: 1
+model_size: "650"
+log: "empty"
+fusion_dim: 768
+no_angle: false
+no_coord: false
+ckpt: "./deeploc_650_woSI.pth"
+lora_r: 16
+esm_path: './SI-tuning/esm2_t33_650M_UR50D'
+epochs: 200
+plddt: true
+
+# esm_path_650 = './esm2_t33_650M_UR50D'
+# esm_path_35 = './esm2_t12_35M_UR50D'
+# saprot_path_650 = './SaProt_650M_AF2'
