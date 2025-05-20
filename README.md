@@ -76,8 +76,7 @@ All datasets are adapted following [SaProt](https://github.com/westlake-repl/SaP
 
 ## 📄 License
 
-This project is released under the [MIT License](LICENSE).
-
+This project is released under the [GPL-3.0 License](LICENSE).
 
 ## 🙏 Acknowledgments
 
