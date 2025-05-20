@@ -28,7 +28,7 @@ bash environment.sh
 
 ### 1. Preprocessed Data
 
-Download the processed cache files from our provided link (will be release soon...).
+Download the processed cache files from [this link](https://drive.google.com/file/d/1Raxf7vczdMOc1dgfqZWsbIBGJS23qY8i/view?usp=drive_link)
 
 Place all files in:
 
