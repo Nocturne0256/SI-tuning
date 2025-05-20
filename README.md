@@ -4,15 +4,12 @@
 
 This implementation is based on:  **Boost Protein Language Model with Injected Structure Information through Parameter Efficient Fine-Tuning**
 
----
-
 ## 🔬 Highlights
 
 - 🔄 **Parameter-Efficient**: Fine-tune ESM-2 with <2% parameters using LoRA.
 - 🔗 **Structural Fusion**: Inject both individual-level (dihedral angle) and pairwise-level (distance map) structural features.
 - 🚀 **Performance**: Outperforms full-parameter tuning and state-of-the-art structure-aware models like SaProt in classification tasks.
 
----
 
 ## 📦 Environment Setup
 
@@ -26,7 +23,6 @@ bash environment.sh
 
 > 💡 *You may adjust the script to install CUDA or use a package mirror based on your local setup.*
 
----
 
 ## 📁 Data & Model Preparation
 
@@ -45,7 +41,6 @@ Place all files in:
 Download ESM-2 (35M / 650M) from [Hugging Face](https://huggingface.co/facebook/esm2_t33_650M_UR50D) and place them in the current working directory.
 Path to the weights should be specified in `config.yaml`.
 
----
 
 ## 🚀 Usage
 
@@ -57,8 +52,6 @@ python train.py
 
 Model, dataset, and training configurations can be modified in `config.yaml`.
 
----
-
 ## 📊 Results (ESM-2 650M)
 
 | Task                  | Metric  | Full Tuning | SI-Tuning |
@@ -69,7 +62,6 @@ Model, dataset, and training configurations can be modified in `config.yaml`.
 | DeepLoc (Subcellular) | ACC (%) | 82.09       | **85.40** |
 | EC Number             | Fmax    | 0.868       | **0.888** |
 
----
 
 ## 🧪 Datasets Used
 
@@ -81,20 +73,16 @@ Model, dataset, and training configurations can be modified in `config.yaml`.
 
 All datasets are adapted following [SaProt](https://github.com/westlake-repl/SaProt) settings.
 
----
 
 ## 📄 License
 
 This project is released under the [MIT License](LICENSE).
 
----
 
 ## 🙏 Acknowledgments
 
 * Based on [ESM](https://github.com/facebookresearch/esm) from Meta AI.
 * Based on [Saprot](https://github.com/westlake-repl/SaProt) :Protein Language Modeling with Structure-aware Vocabulary
-
----
 
 ## 📬 Contact
 
